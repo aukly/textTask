@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+   <!-- Bootstrap CSS-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+   <!--FontAwesome-->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="css/kviz.css">
+
+   <!-- Font -->
+   <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&family=Roboto:wght@300;400;700;900&family=Red+Hat+Display:wght@400;700;900&display=swap" rel="stylesheet">
+    -->
+    <title>Квиз</title>
+  </head>
+  <body>
+    <header class="header">
+      <p>Super Quiz</p>
+      <nav>
+        <ul class="nav-links">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#kviz">Квиз</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li>
+              <div class="dropdown">
+                <a class="dropbtn">Не главная</a>
+                <div class="dropdown-content">
+                 <a>Подпункт</a>
+                 <a>Еще подпункт</a>
+                 <a>И еще один подпункт</a>
+               </div>
+             </div>
+           </li>
+
+
+        </ul>
+      </nav>
+      <a href="#" class="btn-call">Связаться с нами</a>
+      <div class="header-social">
+        <a href="#" id="tiktokUp"><svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M448 209.91a210.06 210.06 0 0 1-122.77-39.25v178.72A162.55 162.55 0 1 1 185 188.31v89.89a74.62 74.62 0 1 0 52.23 71.18V0h88a121.18 121.18 0 0 0 1.86 22.17A122.18 122.18 0 0 0 381 102.39a121.43 121.43 0 0 0 67 20.14Z" fill="#ffffff" class="fill-000000"></path></svg></a>
+        <a href="#" id="vkUp"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M484.7 132c3.56-11.28 0-19.48-15.75-19.48h-52.37c-13.21 0-19.31 7.18-22.87 14.86 0 0-26.94 65.6-64.56 108.13-12.2 12.3-17.79 16.4-24.4 16.4-3.56 0-8.14-4.1-8.14-15.37V131.47c0-13.32-4.06-19.47-15.25-19.47H199c-8.14 0-13.22 6.15-13.22 12.3 0 12.81 18.81 15.89 20.84 51.76V254c0 16.91-3 20-9.66 20-17.79 0-61-66.11-86.92-141.44C105 117.64 99.88 112 86.66 112H33.79C18.54 112 16 119.17 16 126.86c0 13.84 17.79 83.53 82.86 175.77 43.21 63 104.72 96.86 160.13 96.86 33.56 0 37.62-7.69 37.62-20.5v-47.66c0-15.37 3.05-17.93 13.73-17.93 7.62 0 21.35 4.09 52.36 34.33C398.28 383.6 404.38 400 424.21 400h52.36c15.25 0 22.37-7.69 18.3-22.55-4.57-14.86-21.86-36.38-44.23-62-12.2-14.34-30.5-30.23-36.09-37.92-7.62-10.25-5.59-14.35 0-23.57-.51 0 63.55-91.22 70.15-122" fill-rule="evenodd" fill="#ffffff" class="fill-000000"></path></svg></a>
+        <a href="#" id="telegaUp"><svg viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512"><path d="m484.689 98.231-69.417 327.37c-5.237 23.105-18.895 28.854-38.304 17.972L271.2 365.631l-51.034 49.086c-5.646 5.647-10.371 10.372-21.256 10.372l7.598-107.722L402.539 140.23c8.523-7.598-1.848-11.809-13.247-4.21L146.95 288.614 42.619 255.96c-22.694-7.086-23.104-22.695 4.723-33.579L455.423 65.166c18.893-7.085 35.427 4.209 29.266 33.065z" fill="#ffffff" class="fill-20a0e1"></path></svg></a>
+      </div>
+    </header>
+    
+    <section class="main">
+      <h1>Это Супер-квиз!</h1>
+      <p>Пройди квиз, и будешь счастлив. Этот квиз предназначен для тех людей, которые любят проходить тесты!</p>
+      <a href="#">Пройти супер-квиз</a>
+      <div class="main-image"></div>
+    </section>
+
+    <!-- Секция смайлов -->
+    <section class="smile">
+      <div class="smile-item"><p>😋 Восхитетельно</p></div>
+      <div class="smile-item"><p>😎 Лучше не бывает</p></div>
+      <div class="smile-item"><p>😍 Где найти еще?</p></div>
+      <div class="smile-item"><p>🤩 В натуре чётко!</p></div>
+      <div class="smile-item"><p>😍 Круто</p></div>
+    </section>
+
+    <!-- Секция квиза -->
+    <section class="kviz" id="kviz">
+      <div class="kviz-left">
+
+        <div class="kviz-question-one" id="questionOne">
+          <p class="q-name">Какие виды тестов вам нравятся?</p>
+          <p class="q-title">Кто я из вселенной Марвел, На словарный запас</p>
+        </div>
+
+        <div class="kviz-question-one" id="questionTwo">
+          <p class="q-name">Вы любите проходить тесты?</p>
+          <p class="q-title">Да, я прохожу все тесты</p>
+        </div>
+
+        <div class="kviz-question-one" id="questionThree">
+          <p class="q-name">Спасибо за ответы! Заполните форму ниже</p>
+        </div>
+      </div>
+      <div class="kviz-right">
+
+        <div class="kviz-answer-one" id="answerOne">
+          <p class="question">Какие виды тестов вам нравятся?</p>
+          <p class="title">Многие из нас хоть раз попадались на эту удочку — хочешь пройти всего 
+            один тест из интернета, и вдруг понимаешь, что пролетело полдня.</p>
+          <div class="block-answer">
+            <a class="choice" onclick="myFunction('Livello_1')">
+              <svg data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" 
+              xmlns="http://www.w3.org/2000/svg"><title/>
+              <path d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z"/>
+              <path d="M92.12,35.79a3,3,0,0,0-4.24,0L64,59.75l-23.87-24A3,3,0,0,0,35.88,40L59.76,64,35.88,88a3,3,0,0,0,4.25,4.24L64,68.25l23.88,24A3,3,0,0,0,92.13,88L68.24,64,92.13,40A3,3,0,0,0,92.12,35.79Z"/></svg>
+              На темперамент</a>
+            <a class="choice" onclick="myFunction('Livello_2')">
+              <svg data-name="Livello 2" id="Livello_2" viewBox="0 0 128 128" 
+              xmlns="http://www.w3.org/2000/svg"><title/>
+              <path d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z"/>
+              <path d="M92.12,35.79a3,3,0,0,0-4.24,0L64,59.75l-23.87-24A3,3,0,0,0,35.88,40L59.76,64,35.88,88a3,3,0,0,0,4.25,4.24L64,68.25l23.88,24A3,3,0,0,0,92.13,88L68.24,64,92.13,40A3,3,0,0,0,92.12,35.79Z"/></svg>
+              Кто я изз вселенной Марвел</a>
+              <a class="choice" onclick="myFunction('Livello_3')">
+              <svg data-name="Livello 3" id="Livello_3" viewBox="0 0 128 128" 
+              xmlns="http://www.w3.org/2000/svg"><title/>
+              <path d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z"/>
+              <path d="M92.12,35.79a3,3,0,0,0-4.24,0L64,59.75l-23.87-24A3,3,0,0,0,35.88,40L59.76,64,35.88,88a3,3,0,0,0,4.25,4.24L64,68.25l23.88,24A3,3,0,0,0,92.13,88L68.24,64,92.13,40A3,3,0,0,0,92.12,35.79Z"/></svg>
+              Увидел это</a>
+              <a class="choice" onclick="myFunction('Livello_4')">
+              <svg data-name="Livello 4" id="Livello_4" viewBox="0 0 128 128" 
+              xmlns="http://www.w3.org/2000/svg"><title/>
+              <path d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z"/>
+              <path d="M92.12,35.79a3,3,0,0,0-4.24,0L64,59.75l-23.87-24A3,3,0,0,0,35.88,40L59.76,64,35.88,88a3,3,0,0,0,4.25,4.24L64,68.25l23.88,24A3,3,0,0,0,92.13,88L68.24,64,92.13,40A3,3,0,0,0,92.12,35.79Z"/></svg>
+              Мое тотемное животное</a>
+              <a class="choice" onclick="myFunction('Livello_5')">
+              <svg data-name="Livello 5" id="Livello_5" viewBox="0 0 128 128" 
+              xmlns="http://www.w3.org/2000/svg"><title/>
+              <path d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z"/>
+              <path d="M92.12,35.79a3,3,0,0,0-4.24,0L64,59.75l-23.87-24A3,3,0,0,0,35.88,40L59.76,64,35.88,88a3,3,0,0,0,4.25,4.24L64,68.25l23.88,24A3,3,0,0,0,92.13,88L68.24,64,92.13,40A3,3,0,0,0,92.12,35.79Z"/></svg>
+              на IQ</a>
+              <a class="choice" onclick="myFunction('Livello_6')">
+              <svg data-name="Livello 6" id="Livello_6" viewBox="0 0 128 128" 
+              xmlns="http://www.w3.org/2000/svg"><title/>
+              <path d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z"/>
+              <path d="M92.12,35.79a3,3,0,0,0-4.24,0L64,59.75l-23.87-24A3,3,0,0,0,35.88,40L59.76,64,35.88,88a3,3,0,0,0,4.25,4.24L64,68.25l23.88,24A3,3,0,0,0,92.13,88L68.24,64,92.13,40A3,3,0,0,0,92.12,35.79Z"/></svg>
+              На словарный запас</a>
+              <a class="choice" onclick="myFunction('Livello_7')">
+              <svg data-name="Livello 7" id="Livello_7" viewBox="0 0 128 128" 
+              xmlns="http://www.w3.org/2000/svg"><title/>
+              <path d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z"/>
+              <path d="M92.12,35.79a3,3,0,0,0-4.24,0L64,59.75l-23.87-24A3,3,0,0,0,35.88,40L59.76,64,35.88,88a3,3,0,0,0,4.25,4.24L64,68.25l23.88,24A3,3,0,0,0,92.13,88L68.24,64,92.13,40A3,3,0,0,0,92.12,35.79Z"/></svg>
+              На логическое мышление</a>
+              <a class="choice" onclick="myFunction('Livello_8')">
+              <svg data-name="Livello 8" id="Livello_8" viewBox="0 0 128 128" 
+              xmlns="http://www.w3.org/2000/svg"><title/>
+              <path d="M64,0a64,64,0,1,0,64,64A64.07,64.07,0,0,0,64,0Zm0,122a58,58,0,1,1,58-58A58.07,58.07,0,0,1,64,122Z"/>
+              <path d="M92.12,35.79a3,3,0,0,0-4.24,0L64,59.75l-23.87-24A3,3,0,0,0,35.88,40L59.76,64,35.88,88a3,3,0,0,0,4.25,4.24L64,68.25l23.88,24A3,3,0,0,0,92.13,88L68.24,64,92.13,40A3,3,0,0,0,92.12,35.79Z"/></svg>
+              На уровень интелекта</a>
+          </div>
+          <a class="btn-boss" id="goOne">Продолжить</a>
+        </div>
+
+        <div class="kviz-answer-one" id="answerTwo">
+          <p class="question">Вы любите проходить тесты?</p>
+          <p class="title">Нам важно узнать насолько часто Вы проходите тесты.</p>
+          <div class="block-answer">
+            <a href="#" class="choice">Нет, я не никогда не прохожу тесты</a>
+            <a href="#" class="choice">Да, я прохожу все тесты</a>
+            <a href="#" class="choice">Заставляю себя проходить тесты</a>
+            <a href="#" class="choice">Не люблю проходить тесты, но иногда приходится</a>
+          </div>
+          <div>
+            <a class="btn-back" id="backTwo">Назад</a>
+            <a class="btn-boss" id="goTwo">Продолжить</a>
+          </div>
+        </div>
+
+        <div class="kviz-answer-one" id="answerThree">
+          <p class="question">Спасибо за ответы!<br>Заполните форму ниже</p>
+          <p class="title">Ваше мнение важно для нас. Прикрепите фото с Вашей любимой картинкой и
+            оставьте комментарий насколько понравился Вам тест.
+          </p>
+          <div class="block-answer">
+            <input placeholder="Ваше мнение сюда">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Очень понравился<svg height="20px" width="20px" id="Layer_1" version="1.1" viewBox="0 0 512 512" 
+                xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon points="396.6,352 416,331.3 256,160 96,331.3 115.3,352 256,201.5 "/></svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item">Очень понравился</a></li>
+                <li><a class="dropdown-item">Не понравился</a></li>
+                <li><a class="dropdown-item">Пройду еще раз</a></li>
+                <li><a class="dropdown-item">Посоветую пройти всем</a></li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <a class="btn-back" id="backThree">Назад</a>
+            <a class="btn-boss" id="goThree">Продолжить</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Slider main container -->
+<div class="swiper" id="reviews">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <div class="swiper-slide-text">
+        <div class="swiper-slide-image" id="one">
+           <!-- <img src="img/bum_braslet.jpg"> -->
+        </div>
+        <p class="swiper-slide-person"><span>Андрей Пархимович</span></p>
+        <p>В целом, конечно, постоянное информационно-пропагандистское обеспечение нашей деятельности 
+          влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.</p> 
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="swiper-slide-text">
+        <div class="swiper-slide-image" id="two">
+           <!-- <img src="img/bum_braslet.jpg"> -->
+        </div>
+        <p class="swiper-slide-person"><span>Тимур Никитенко</span></p>
+        <p>Господа, глубокий уровень погружения в значительной степени обусловливает важность 
+          глубокомысленных рассуждений.</p> 
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="swiper-slide-text">
+        <div class="swiper-slide-image" id="three">
+           <!-- <img src="img/bum_braslet.jpg"> -->
+        </div>
+        <p class="swiper-slide-person"><span>Артур Усович</span></p>
+        <p>Задача организации, в особенности же убеждённость некоторых оппонентов предопределяет 
+          высокую востребованность благоприятных перспектив.</p> 
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="swiper-slide-text">
+        <div class="swiper-slide-image" id="four">
+           <!-- <img src="img/bum_braslet.jpg"> -->
+        </div>
+        <p class="swiper-slide-person"><span>Егор Грей</span></p>
+        <p>Разнообразный опыт говорит нам, что высокое качество позиционных исследований 
+          предопределяет высокую востребованность кластеризации усилий. А богатый опыт дает нам 
+        возможность предвидить вероятности.</p> 
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="swiper-slide-text">
+        <div class="swiper-slide-image" id="two">
+           <!-- <img src="img/bum_braslet.jpg"> -->
+        </div>
+        <p class="swiper-slide-person"><span>Тимур Никитенко</span></p>
+        <p>Господа, глубокий уровень погружения в значительной степени обусловливает важность 
+          глубокомысленных рассуждений.</p> 
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="swiper-slide-text">
+        <div class="swiper-slide-image" id="three">
+           <!-- <img src="img/bum_braslet.jpg"> -->
+        </div>
+        <p class="swiper-slide-person"><span>Артур Усович</span></p>
+        <p>Задача организации, в особенности же убеждённость некоторых оппонентов предопределяет 
+          высокую востребованность благоприятных перспектив.</p> 
+      </div>
+    </div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+
+    <!-- FOOTER -->
+    <section class="footer">
+      <div class="footer-left">
+        <div class="footer-info">
+          <div class="footer-info-phone">
+            <p>Телефон:</p>
+            <a href="tel:+375 12 345 67 89">+375 12 345 67 89</a>
+          </div>
+          <div class="footer-info-email">
+            <p>Email:</p>
+            <a href="mailto:ourmail@gmail.com">ourmail@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="footer-social">
+          <a href="#" id="tiktok"><svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M448 209.91a210.06 210.06 0 0 1-122.77-39.25v178.72A162.55 162.55 0 1 1 185 188.31v89.89a74.62 74.62 0 1 0 52.23 71.18V0h88a121.18 121.18 0 0 0 1.86 22.17A122.18 122.18 0 0 0 381 102.39a121.43 121.43 0 0 0 67 20.14Z" fill="#ffffff" class="fill-000000"></path></svg></a>
+          <a href="#" id="vk"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M484.7 132c3.56-11.28 0-19.48-15.75-19.48h-52.37c-13.21 0-19.31 7.18-22.87 14.86 0 0-26.94 65.6-64.56 108.13-12.2 12.3-17.79 16.4-24.4 16.4-3.56 0-8.14-4.1-8.14-15.37V131.47c0-13.32-4.06-19.47-15.25-19.47H199c-8.14 0-13.22 6.15-13.22 12.3 0 12.81 18.81 15.89 20.84 51.76V254c0 16.91-3 20-9.66 20-17.79 0-61-66.11-86.92-141.44C105 117.64 99.88 112 86.66 112H33.79C18.54 112 16 119.17 16 126.86c0 13.84 17.79 83.53 82.86 175.77 43.21 63 104.72 96.86 160.13 96.86 33.56 0 37.62-7.69 37.62-20.5v-47.66c0-15.37 3.05-17.93 13.73-17.93 7.62 0 21.35 4.09 52.36 34.33C398.28 383.6 404.38 400 424.21 400h52.36c15.25 0 22.37-7.69 18.3-22.55-4.57-14.86-21.86-36.38-44.23-62-12.2-14.34-30.5-30.23-36.09-37.92-7.62-10.25-5.59-14.35 0-23.57-.51 0 63.55-91.22 70.15-122" fill-rule="evenodd" fill="#ffffff" class="fill-000000"></path></svg></a>
+          <a href="#" id="telega"><svg viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512"><path d="m484.689 98.231-69.417 327.37c-5.237 23.105-18.895 28.854-38.304 17.972L271.2 365.631l-51.034 49.086c-5.646 5.647-10.371 10.372-21.256 10.372l7.598-107.722L402.539 140.23c8.523-7.598-1.848-11.809-13.247-4.21L146.95 288.614 42.619 255.96c-22.694-7.086-23.104-22.695 4.723-33.579L455.423 65.166c18.893-7.085 35.427 4.209 29.266 33.065z" fill="#ffffff" class="fill-20a0e1"></path></svg></a>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p>Super Quiz</p>
+      </div>
+  </section>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="js/kviz.js"></script>
+  </body>
+</html>
